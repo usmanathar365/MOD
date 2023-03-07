@@ -1,7 +1,5 @@
 @php $table = "New"; @endphp
 @extends('admin.layouts.app')
-
-
 @section('pageCss')
 
 <link href="{{ url('/') }}/admin/css/dropzone.min.css" rel="stylesheet">
@@ -18,11 +16,11 @@
   .switch {
     position: relative;
     display: inline-block;
-      width: 80px;
-      height: 40px;
+      width: 60px;
+      height: 30px;
     overflow: hidden;
     background: #253b52;
-    border-radius: 5px;
+    border-radius: 15px;
   }
 
   .switch input {
@@ -51,11 +49,11 @@
   .toggle:before {
       position: absolute;
       content: " ";
-      height: 80%;
+      height: 100%;
       width: 60%;
       background: #fff;
-      top: 10%;
-      left: -20%;
+      top: 0%;
+      left: -10%;
       transition: left .4s ease-in-out, background .4s ease;
   }
 
@@ -75,7 +73,7 @@
   }
 
   input:checked + .toggle:before {
-    left: 52px;
+    left: 30px;
   }
     .dataTables_filter {
       display: none;
