@@ -1,0 +1,1573 @@
+@font-face {
+    font-family: "Rubik-Regular";
+    src: url("../../fonts/Rubik-Regular.ttf");
+    font-weight: regular;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Rubik-SemiBold";
+    src: url("../../fonts/Rubik-SemiBold.ttf");
+    font-weight: regular; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Rubik-Medium";
+    src: url("../../fonts/Rubik-Medium.ttf");
+    font-weight: regular;
+    font-style: normal;
+}
+
+.content-header {
+    border-bottom: 1px solid #30415e;
+    padding: 14px 0px 14px 0px;
+    margin: 0px 0px 25px 0px;
+}
+
+aside.main-sidebar {
+    background: #30415e;
+    opacity: 1;
+}
+
+.main-sidebar a.brand-link {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #30415e;
+    padding: 30px 0px;
+    flex-direction: column;
+}
+
+.main-sidebar ul.nav-pills li.nav-item a.nav-link.active {
+    background-color: transparent;
+}
+
+.main-sidebar span.brand-text {
+    margin: 15px 0px 0px 0px;
+    color: #fff;
+    font-family: "Rubik-Regular";
+}
+
+.sidebar nav.custom-navbar {
+    margin: 25px 0px 0px 0px;
+}
+
+.navbar-white {
+    background-color: #30415e;
+    color: #fff;
+    padding: 10px 10px;
+    border-bottom: 1px solid #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    transition: 0.5s;
+    font-family: "Rubik-Regular";
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+    color: #fff;
+}
+
+.nav-sidebar .nav-item > .nav-link {
+    transition: 0.5s;
+    margin: 0px 0px 12px 0px;
+    font-family: "Rubik-Regular";
+}
+
+li.nav-item a.nav-link.active i {
+    color: #fff;
+}
+
+a.nav-link.active p {
+    color: #373737;
+}
+
+a.nav-link.active {
+    box-shadow: none;
+}
+
+.updated-boxes-flex {
+    display: flex;
+    margin: 40px 0px 0px 0px;
+    gap: 0.66%;
+}
+
+.box-invoices-number {
+    padding: 0px 15px;
+}
+
+.box-invoices-name {
+    padding: 0px 15px;
+}
+
+.box-invoices-date {
+    padding: 0px 15px;
+}
+
+.box-invoices-date h6 {
+    font-size: 12px;
+    font-family: "Rubik-Regular";
+}
+
+.updated-box {
+    width: 16%;
+    padding: 15px 0px 0px 0px;
+    border-radius: 5px;
+    background: #ffffff;
+}
+
+.updated-heading h6 {
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Rubik-Medium";
+    margin: 0px;
+}
+
+.box-invoices-number p {
+    font-size: 13px;
+    color: #373737;
+    margin: 0px 0px 5px 0px;
+    font-family: "Rubik-Regular";
+}
+
+.box-invoices-name h6 {
+    font-size: 15px;
+    font-weight: 500;
+    color: #373737;
+    margin: 0px 0px 0px 0px;
+    font-family: "Rubik-Regular";
+}
+
+.box-invoices-price {
+    border-top: 1px solid #7f8c9f;
+    margin: 45px 15px 0px 15px;
+    text-align: right;
+    padding: 5px 0px 5px 20px;
+}
+
+.box-invoices-price h6 {
+    font-size: 14px;
+    font-family: "Rubik-Regular";
+    margin: 0px;
+}
+
+.box-invoices-details {
+    background: #60a341;
+    padding: 4px 15px;
+    border-radius: 0px 0px 3px 3px;
+    font-family: "Rubik-Regular";
+}
+
+.invoices-details-green a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.invoices-details-red {
+    background-color: #c52e46;
+}
+
+.invoices-details-red a {
+    color: #fff;
+    font-size: 14px;
+}
+
+nav.custom-navbar a.nav-link i {
+    color: #fff;
+}
+
+nav.custom-navbar a.nav-link p {
+    color: #fff;
+}
+
+nav.custom-navbar .badge-info {
+    color: #000;
+    background-color: #ffffff;
+}
+
+.content-header ol.breadcrumb a {
+    background: #60a341;
+    padding: 0px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Rubik-Regular";
+    display: inline-flex;
+    align-items: center;
+    height: 38px;
+    border: 2px solid transparent;
+    transition: 0.5s;
+}
+
+.invoices-tabs {
+    margin: 50px 0px 0px 0px;
+    border-bottom: 1px solid #30415e;
+}
+
+.invoices-tabs ul {
+    padding: 0px 0px 7px 0px;
+    margin: 0px;
+    display: flex;
+}
+
+.invoices-tabs ul li {
+    list-style: none;
+}
+
+.invoices-tabs ul li a {
+    font-size: 16px;
+    color: #212529;
+    padding: 10px 25px;
+    font-family: "Rubik-Regular";
+}
+
+.invoices-tabs ul li a.active {
+    border-radius: 5px 5px 0px 0px;
+    border: 1px solid #30415e;
+    border-bottom: 0;
+    background: #30415e;
+    color: #fff;
+}
+
+.invoices-head-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.invoices-head tbody tr td:nth-child(2) {
+    max-width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.table-bordered td span {
+    display: block;
+}
+
+.invoices-h h6 {
+    font-size: 24px;
+    margin: 0px;
+    display: inline-flex;
+    align-items: center;
+    font-family: "Rubik-Medium";
+}
+
+.invoices-h h6 a {
+    margin: 0px 0px 0px 15px;
+}
+
+.invoices-h h6 i {
+    font-size: 15px;
+    background: #60a341;
+    padding: 8px 10px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.feild input {
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 12px 8px 40px;
+    border-radius: 50px 0px 0px 50px;
+    outline: none;
+    border: 2px solid #30415e;
+    border-right: 1px solid #30415e;
+    color: #7f8c9f;
+    font-family: "Rubik-Regular";
+}
+
+.feild {
+    position: relative;
+}
+
+.feild-s {
+    position: relative;
+    border: none;
+    padding: 10.5px 12px 10.5px 40px;
+    border-radius: 0px 50px 50px 0px;
+    outline: none;
+    border: 2px solid #30415e;
+    border-left: 1px solid #30415e;
+    color: #30415e;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.invoices-icon {
+    position: absolute;
+    top: 20%;
+    left: 7%;
+}
+
+.invoices-icon i {
+    font-size: 14px;
+    color: #30415e;
+}
+
+.invoices-search {
+    display: flex;
+    align-items: center;
+}
+
+.feild-s h6 {
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Rubik-Regular";
+}
+
+.feild-i {
+    position: absolute;
+    left: 7%;
+    top: 20%;
+}
+
+.feild-i i {
+    transition: 0.3s linear;
+}
+
+.feild-s:hover .feild-i i {
+    transform: rotate(360deg);
+}
+
+.search-details {
+}
+
+.search-details label {
+    margin: 0px 0px 10px 0px;
+    display: block;
+    font-size: 16px;
+    font-weight: 500 !important;
+    font-family: "Rubik-Regular";
+}
+
+.search-details select {
+    width: 100%;
+    outline: none;
+    padding: 10px 10px;
+    border: 1px solid #7f8c9f;
+    border-radius: 5px;
+    font-family: "Rubik-Regular";
+}
+
+.search-details select option {
+    outline: none;
+    padding: 0px;
+}
+
+.search-details {
+    background: #fff;
+    padding: 20px;
+    margin: 0px 0px 20px 0px;
+    transform: scaleY(0);
+    transition: 0.5s;
+    transform-origin: top;
+    position: absolute;
+    width: 100%;
+}
+
+.active {
+    transform: scaleY(1);
+    position: relative;
+}
+
+.preloader {
+    background-color: #30415e;
+}
+
+.content-header h1 {
+    font-family: "Rubik-Medium";
+}
+
+thead tr th {
+    font-family: "Rubik-Regular";
+}
+
+tbody tr td {
+    font-family: "Rubik-Regular";
+}
+
+tbody tr td span {
+    font-size: 12px;
+    padding: 0px 0px 0px 20px;
+}
+
+.invoices-head .table-hover tbody tr {
+    transition: 0.5s;
+}
+
+.invoices-head .table-hover tbody tr:hover {
+    background: rgb(48 65 94 / 80%);
+    color: #fff;
+}
+
+.content-header .breadcrumb {
+    gap: 10px;
+}
+
+.content-header ol.breadcrumb a.cancel {
+    background: transparent;
+    color: #30415e;
+    border: 2px solid #30415e;
+    line-height: initial;
+    display: inline-flex;
+    align-items: center;
+    height: 40px;
+    transition: 0.5s;
+}
+
+.content-header ol.breadcrumb a.cancel:hover {
+    background: #30415e;
+    color: #fff;
+    border: 2px solid transparent;
+}
+
+.content-header ol.breadcrumb a:hover {
+    background: transparent;
+    border: 2px solid #60a341;
+    color: #60a341;
+}
+
+.d-c h6 {
+    margin: 0px 0px 5px 0px;
+    font-size: 14px;
+    font-family: "Rubik-Regular";
+    text-align: right;
+}
+
+.d-c h5 {
+    margin: 0px 0px 5px 0px;
+    font-size: 14px;
+    font-family: "Rubik-Regular";
+    text-align: right;
+    height: 40px;
+}
+
+.d-c h5 span {
+    color: #60a341;
+}
+
+.d-3 h6 {
+    margin: 0px 0px 5px 0px;
+    font-size: 14px;
+    font-family: "Rubik-Regular";
+}
+
+.d-3 input {
+    border: 1px solid #000;
+    border: 2px solid #30415e;
+    border-radius: 5px;
+    outline: none;
+    padding: 8px 10px;
+    font-family: "Rubik-Regular";
+    height: 40px;
+    background: transparent;
+}
+
+.d-4 h6 {
+    margin: 0px 0px 5px 0px;
+    font-size: 14px;
+    font-family: "Rubik-Regular";
+}
+
+.d-4 input {
+    border: 1px solid #000;
+    border: 2px solid #30415e;
+    border-radius: 5px;
+    outline: none;
+    padding: 8px 10px;
+    font-family: "Rubik-Regular";
+    height: 40px;
+    background: transparent;
+}
+
+.d-4 input::placeholder {
+    color: #30415e;
+}
+
+.d-5 h6 {
+    margin: 0px 0px 5px 0px;
+    font-size: 14px;
+    font-family: "Rubik-Regular";
+}
+
+.d-5 h5 {
+    font-size: 35px;
+    font-family: "Rubik-Regular";
+    text-align: right;
+    margin: 0px;
+}
+
+.c-bg {
+    border: 2px solid #30415e;
+    border-radius: 5px;
+    padding: 20px 20px;
+}
+
+.d-6 h6 {
+    margin: 0px 0px 5px 0px;
+    font-size: 14px;
+    font-family: "Rubik-Regular";
+}
+
+.card-setting h6 {
+    font-size: 26px;
+    font-family: "Rubik-Medium";
+    margin: 0px 0px 5px 0px;
+}
+
+.card-setting h5 {
+    font-size: 18px;
+    font-family: "Rubik-Regular";
+    margin: 0px 0px 20px 0px;
+}
+
+.card-s-wrap {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #30415e;
+    box-shadow: none;
+}
+
+.card-s-wrap .card-header {
+    padding: 12px 10px;
+    font-family: "Rubik-Regular";
+}
+
+.card-s-wrap .card-header {
+    border-bottom: 2px solid rgb(48 65 94);
+}
+
+.card-s-wrap .card-header h3 {
+    font-size: 15px;
+    color: #30415e;
+}
+
+.card-s-wrap h3 {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-body h6 {
+    font-family: "Rubik-Regular";
+    color: #30415e;
+}
+
+.card-s-wrap .card-body p {
+    margin: 0px;
+    font-family: "Rubik-Regular";
+}
+
+.card-s-wrap .card-body {
+    padding: 12px 10px;
+}
+
+.card-s-wrap [type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+
+.card-s-wrap [type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label {
+    position: relative;
+    padding-left: 40px;
+    cursor: pointer;
+    display: inline-block;
+    color: #666;
+    font-size: 16px;
+    font-family: "Rubik-Regular";
+}
+
+.card-s-wrap [type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 32px;
+    height: 32px;
+    border: 2px solid #30415e;
+    border-radius: 100%;
+    background: transparent;
+}
+
+.card-s-wrap [type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: #60a341;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.card-s-wrap [type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+.card-s-wrap [type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.card-s-wrap .form-group {
+    display: block;
+    margin: 0px 0px 0px 45px;
+}
+
+.card-s-wrap .form-group input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+
+.card-s-wrap .form-group label {
+    position: relative;
+    cursor: pointer;
+    color: #30415e;
+    font-size: 12px;
+    font-family: "Rubik-Regular";
+}
+
+.card-s-wrap .form-group label:before {
+    content: "";
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 1px solid #60a341;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 5%), inset 0px -15px 10px -12px rgb(0 0 0 / 5%);
+    padding: 7px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.card-s-wrap .form-group input:checked + label:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 4.4px;
+    left: 6px;
+    width: 5px;
+    height: 10px;
+    border: solid #60a341;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.form-group label ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px 0px 0px 24px;
+}
+
+.form-group label ul li {
+    list-style: none;
+    width: 22%;
+}
+
+.payment2 .form-group {
+    margin: 0px;
+}
+
+.payment2 {
+    border-top: 2px solid #30415e;
+    padding: 15px 0px 0px 0px;
+    margin: 15px 0px 0px 0px;
+}
+
+.payment3 {
+    border-top: 2px solid #30415e;
+    border-bottom: 2px solid #30415e;
+    padding: 5px 0px;
+}
+
+.payment3 a {
+    font-size: 14px;
+    color: #30415e;
+    font-family: "Rubik-Regular";
+}
+
+.d-gap-1 {
+    margin: 60px 0px 40px 0px;
+}
+
+.d-7 h6 {
+    margin: 0px 0px 5px 0px;
+    font-size: 14px;
+    font-family: "Rubik-Regular";
+}
+
+.d-7 input {
+    border: 2px solid #30415e;
+    border-radius: 5px;
+    outline: none;
+    padding: 8px 10px;
+    font-family: "Rubik-Regular";
+    height: 40px;
+    width: 450px;
+    background: transparent;
+}
+
+.d-7 input::placeholder {
+    color: #30415e;
+}
+
+.d-7 textarea {
+    border: 2px solid #30415e;
+    border-radius: 5px;
+    outline: none;
+    padding: 8px 10px;
+    font-family: "Rubik-Regular";
+    height: 100px;
+    width: 100%;
+    resize: none;
+    background: transparent;
+}
+
+.d-7 textarea::placeholder {
+    color: #30415e;
+}
+
+.upload-wrap {
+    border-radius: 10px;
+    box-shadow: none;
+    width: 100%;
+    height: 185px;
+    background-color: transparent;
+}
+
+.upload-text h3 {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Rubik-Regular";
+    margin: 0px 0px 20px 0px;
+}
+
+.upload-wrap .drop_box {
+    margin: 10px 0;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 3px dotted #30415e;
+    border-radius: 5px;
+}
+
+.upload-wrap .drop_box h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #2e2e2e;
+}
+
+.upload-wrap .drop_box p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #a3a3a3;
+}
+
+.upload-wrap .btn {
+    text-decoration: none;
+    background-color: #30415e;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+}
+
+.upload-wrap .btn:hover {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #30415e;
+    padding: 10px 20px;
+    border: none;
+    outline: 1px solid #010101;
+}
+
+.upload-wrap .form input {
+    margin: 10px 0;
+    width: 100%;
+    background-color: #e2e2e2;
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+}
+
+.clientsht-1 h6 {
+    font-family: "Rubik-Medium";
+    font-size: 28px;
+    margin: 0px 0px 25px 0px;
+}
+
+.clientsht-box {
+    background: #FFF;
+    padding: 30px 20px;
+    border-radius: 5px;
+    min-height: 150px;
+    border-top: 4px solid #30415e;
+}
+
+.clientsht-box ul {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    gap: 8px;
+}
+
+.clientsht-box ul li {
+    list-style: none;
+}
+
+.clientsht-box ul li span {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #30415e;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.clientsht-box ul li h6 {
+    font-size: 15px;
+    font-family: "Rubik-Regular";
+    margin: 0px 0px 0px 0px;
+}
+
+.clientsht-box ul li a {
+    font-size: 12px;
+    font-family: "Rubik-Regular";
+    color: #30415e;
+}
+
+.client-group {
+    display: block;
+}
+
+.client-group input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+
+.client-group label {
+    position: relative;
+    cursor: pointer;
+    margin: 0px;
+    font-weight: 500 !important;
+    display: flex;
+    align-items: center;
+}
+
+.client-group label:before {
+    content: '';
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 2px solid #60a341;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 5%), inset 0px -15px 10px -12px rgb(0 0 0 / 5%);
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 15px;
+    transition: 0.5s;
+}
+
+.client-group input:checked + label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 9px;
+    width: 6px;
+    height: 14px;
+    border: solid #60a341;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.invoices-head .table-hover tbody tr:hover .client-group label:before {
+    border: 2px solid #FFF;
+}
+
+.client-head .input-group-prepend {
+    margin: 0px 0px 0px 20px;
+}
+
+.client-head .input-group-prepend button {
+    background: #60a341;
+    color: #FFF;
+    border: none;
+    font-size: 14px;
+    padding: 6px 10px;
+}
+
+.modal-custom-1 .modal-dialog {
+    max-width: 1000px;
+    height: 100%;
+    margin: 0px auto 0px;
+    display: flex;
+    align-items: center;
+}
+
+.modal-custom-1 .modal-header {
+    border-bottom: 1px solid #30415e;
+    display: block;
+}
+
+.modal-custom-1 .modal-header h5 {
+    font-family: "Rubik-Medium";
+    font-size: 28px;
+}
+
+.details-pop-img span {
+    border: 2px solid #30415e;
+    width: 70px;
+    height: 70px;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 50px;
+    justify-content: center;
+    font-size: 26px;
+    font-family: "Rubik-Medium";
+}
+
+.client-details-pop {
+    display: flex;
+    gap: 20px;
+}
+
+.pop-field-input {
+    margin: 0px 0px 15px 0px;
+}
+
+.pop-field-input input {
+    width: 100%;
+    height: 40px;
+    border: 2px solid #30415e;
+    padding: 0px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #30415e;
+    font-family: "Rubik-Regular";
+}
+
+.pop-field-input input::placeholder {
+    color: #30415e;
+}
+
+.pop-field-input select {
+    width: 100%;
+    height: 40px;
+    border: 2px solid #30415e;
+    padding: 0px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #30415e;
+    font-family: "Rubik-Regular";
+}
+
+.clients-pop-accordian h6 {
+    font-size: 24px;
+    margin: 0px 0px 20px 0px;
+    font-family: "Rubik-Medium";
+}
+
+.clients-pop-accordian .card {
+    box-shadow: none;
+}
+
+.clients-pop-accordian .card-body {
+    border: 2px solid #30415e;
+    padding: 10px 15px;
+    font-size: 13px;
+    font-family: "Rubik-Regular";
+    border-top: 0;
+}
+
+.clients-pop-accordian .card-header {
+    border: 2px solid #30415e;
+    border-radius: 5px 5px 0px 0px;
+    padding: 8px 12px;
+    font-size: 16px;
+    font-family: "Rubik-Regular";
+}
+
+.clients-pop-accordian .card-header span {
+    display: block;
+    font-size: 12px;
+}
+
+.modal-header ul.breadcrumb {
+    display: flex;
+    padding: 0px;
+    background: transparent;
+    margin: 0px;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.modal-header ul.breadcrumb li a {
+    background: #60a341;
+    padding: 0px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Rubik-Regular";
+    display: inline-flex;
+    align-items: center;
+    height: 38px;
+    border: 2px solid transparent;
+    transition: 0.5s;
+}
+ol.client-t-drop  {
+    display: flex;
+    gap: 20px;
+}
+
+ol.client-t-drop .input-group-prepend button {
+    border: 2px solid #60a341;
+    font-family: "Rubik-Medium";
+    background: #60a341;
+    color: #FFF;
+}
+
+.clientt-box {
+    background: #FFF;
+    padding: 30px 20px;
+    border-radius: 5px;
+    border-top: 4px solid #30415e;
+}
+
+.clientt-box-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clientt-box-flex h6 {
+    font-size: 20px;
+    font-family: "Rubik-Regular";
+    margin: 0px;
+}
+
+.clientt-box-flex h5 {
+    font-size: 16px;
+    font-family: "Rubik-Medium";
+    color: #60a341;
+    margin: 0px;
+}
+
+.client-table-wrap ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.nav-pills .nav-link.active {
+    background: #60a341;
+}
+
+.client-table-wrap ul.nav li a {
+    font-family: "Rubik-Regular";
+    color: #FFF;
+    font-size: 15px;
+    transition: 0.5s;
+    background: #30415e;
+}
+
+.client-table-wrap ul.nav li a:hover {
+    color: #FFF;
+}
+
+.clientt-box-footer {
+    border-top: 2px solid #30415e;
+    margin: 30px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
+}
+
+.clientt-box-footer ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+}
+
+.clientt-box-footer ul li {
+    list-style: none;
+}
+
+.clientt-box-footer ul li h5 {
+    font-family: "Rubik-Regular";
+    font-size: 20px;
+    margin: 0px 0px 5px 0px;
+}
+
+.clientt-box-footer ul li h6 {
+    font-family: "Rubik-Regular";
+    font-size: 16px;
+}
+
+.clientsht-1 input {
+    width: 100%;
+    height: 45px;
+    border: 2px solid #30415e;
+    border-radius: 5px;
+    font-family: "Rubik-Regular";
+    font-size: 14px;
+    padding: 0px 15px;
+}
+
+.table-modal .modal-dialog {
+    max-width: 900px;
+    height: 100%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+}
+
+.table-modal .modal-header {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+    border-bottom: 2px solid #30415e;
+}
+
+.table-modal .modal-header h6 {
+    font-size: 22px;
+    font-family: "Rubik-Medium";
+    margin: 0px 0px 5px 0px;
+}
+
+.table-modal .modal-header p {
+    font-size: 16px;
+    font-family: "Rubik-Regular";
+    margin: 0px 0px 5px 0px;   
+}
+
+.table-modal-input {
+    margin: 0px 0px 20px 0px;
+}
+
+.table-modal-input label {
+    font-size: 14px;
+    font-family: "Rubik-Regular";
+    display: block;
+    margin: 0px 0px 5px 0px;
+}
+
+.table-modal-input input {
+    width: 100%;
+    height: 40px;
+    border: 2px solid #30415e;
+    padding: 0px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #30415e;
+    font-family: "Rubik-Regular";
+}
+
+.table-modal-input select {
+    width: 100%;
+    height: 40px;
+    border: 2px solid #30415e;
+    padding: 0px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #30415e;
+    font-family: "Rubik-Regular";
+}
+
+.table-modal .modal-body {
+    padding: 30px 50px;
+}
+
+.table-modal .modal-body-1 h6 {
+    font-size: 16px;
+    font-family: "Rubik-Regular";
+    margin: 0px 0px 15px 0px;
+}
+
+.table-modal .modal-body-1 {
+    border-top: 2px solid #30415e;
+    margin: 20px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
+}
+
+.modal-body-1 [type="radio"]:checked,
+.modal-body-1 [type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+
+.modal-body-1 [type="radio"]:checked + label, .modal-body-1 [type="radio"]:not(:checked) + label {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    display: inline-block;
+    color: #666;
+    font-size: 14px;
+    font-family: "Rubik-Regular";
+    font-weight: 400;
+}
+
+.modal-body-1 [type="radio"]:checked + label:before,
+.modal-body-1 [type="radio"]:not(:checked) + label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #30415e;
+    border-radius: 100%;
+    background: transparent;
+}
+
+.modal-body-1 [type="radio"]:checked + label:after, 
+.modal-body-1 [type="radio"]:not(:checked) + label:after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background: #60a341;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.modal-body-1 [type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+.modal-body-1 [type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.modal-body-1 .payment1 p {
+    margin: 0px;
+}
+
+.modal-body-2 p {
+    font-size: 14px;
+    font-family: "Rubik-Regular";
+    margin: 0px 0px 0px 0px;
+}
+
+.modal-body-2 {
+    margin: 20px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
+    border-top: 2px solid #30415e;
+}
+
+.modal-footer-1 {
+    border-top: 2px solid #30415e;
+}
+
+.modal-footer-1 ul {
+    padding: 25px 50px 25px 50px;
+    margin: 0px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.modal-footer-1 ul li {
+    list-style: none;
+}
+
+.modal-footer-1 ul li a {
+    padding: 10px 20px;
+    background: #60a341;
+    color: #FFF;
+    font-size: 14px;
+    font-family: "Rubik-Regular";
+    border-radius: 5px;
+}
+
+ul.brand-dropdown {
+    margin: 0px;
+    background: #000;
+    padding: 15px 0px;
+    height: 110px;
+    overflow-y: scroll;
+    transform-origin: top;
+    display: none;
+    transition: opacity 1s ease-out;
+    opacity: 0;
+}
+
+ul.brand-dropdown li {
+    list-style: none;
+    padding: 0px 8px;
+    margin: 0px 0px 15px 0px;
+}
+
+ul.brand-dropdown li:last-child {
+    margin: 0px 0px 0px 0px;   
+}
+
+ul.brand-dropdown li a img {
+    width: 30px;
+}
+
+ul.brand-dropdown li span {
+    font-family: "Rubik-Regular";
+    font-size: 13px;
+    color: #FFF;
+}
+
+ul.brand-dropdown::-webkit-scrollbar-track{
+    background-color: #FFF;
+}
+
+ul.brand-dropdown::-webkit-scrollbar{
+    width: 2px;
+    background-color: #FFF;
+}
+
+ul.brand-dropdown::-webkit-scrollbar-thumb{
+    background-color: #FFF;
+}
+
+ul.brand-active {
+    opacity: 1;
+    display: block;
+}
+
+.d-7 .card-body table tbody tr td p {
+    margin: 0px;
+    font-size: 14px;
+}
+
+.table-responsive {
+    display: table;
+}
+
+.invoices1 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px){
+    .updated-boxes-flex {
+        flex-wrap: wrap;
+    }
+    .updated-box {
+        width: 48%;    
+    }
+    .invoices-h h6 {
+        font-size: 20px;
+    }
+    .feild input {
+        width: 150px;
+        font-size: 14px;
+        padding: 8px 12px 8px 35px;
+    }
+    .feild-s {
+        font-size: 14px;
+    }
+    .feild-s h6 {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    .invoices-search {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .feild input {
+        padding: 6px 12px 6px 40px;
+        border-radius: 50px;
+        border: 2px solid #30415e;
+        border-right: 2px solid #30415e;
+        font-size: 14px;
+    }
+    .feild-s {
+        border-radius: 50px;
+        border: 2px solid #30415e;
+        border-left: 2px solid #30415e;
+        width: 100%;
+        padding: 8.5px 12px 8.5px 40px;
+    }
+    .invoices-tabs ul li a {
+        font-size: 14px;
+        color: #212529;
+        padding: 10px 18px;
+    }
+    .invoices-head-flex {
+        flex-direction: column;
+    }
+    .updated-box {
+        width: 100%;
+        margin: 0px 0px 20px 0px;
+    }
+    .updated-boxes-flex {
+        display: flex;
+        gap: 1%;
+        flex-wrap: wrap;
+        margin: 20px 0px 0px 0px;
+    }
+    .invoices-h h6 {
+        font-size: 22px;
+    }
+    .invoices-h {
+        margin: 0px 0px 15px 0px;
+    }
+    .feild {
+        margin: 0px 0px 15px 0px;
+    }
+    .table thead th {
+        font-size: 13px;
+        padding: 10px 5px;
+    }
+    .invoices-head .table-hover tbody tr:hover {
+        color: #000;
+    }
+    tbody tr td span {
+        padding: 0px 0px 0px 0px;
+    }
+    .table td {
+        font-size: 14px;
+    }
+    .invoices-icon {
+        position: absolute;
+        top: 19%;
+        left: 7%;
+        font-size: 14px;
+    }
+    .feild-i {
+        left: 7%;
+        top: 18%;
+    }
+    .feild-i {
+        font-size: 14px;    
+    }
+    .feild-s h6 {
+        font-size: 14px;    
+    }
+    .search-details label {
+        font-size: 14px;
+        margin: 0px 0px 5px 0px;
+    }
+    .search-details select {
+        padding: 8px 8px;
+        font-size: 14px;
+        margin: 0px 0px 15px 0px;
+    }
+    .invoice-detail-1 {
+        flex-direction: column;
+    }
+    .invoice-detail-2 .card-body {
+        padding: 0px;
+    }
+    .d-3 input {
+        width: 100%;
+    }
+    .d-4 input {
+        width: 100%;
+    }
+    .invoice-detail-1 .d-gap {
+        margin: 0px 0px 20px 0px !important;
+    }
+    .invoice-detail-2 {
+        margin: 5px 0px 0px 0px;
+    }
+    .invoice-detail-2 .table thead th {
+        font-size: 12px;
+    }
+    .invoice-detail-2 .card-body table tbody tr td p {
+        font-size: 12px;
+    }
+    .invoice-detail-2 .table td {
+        font-size: 12px;
+    } 
+    .invoice-detail-1 .d-5 h5 {
+        font-size: 20px;
+        font-family: "Rubik-Regular";
+        text-align: left;
+        margin: 0px;
+    }
+    .invoice-detail-1 .d-4 input {
+        height: 35px;
+        font-size: 14px;
+    }
+    .invoice-detail-1 .d-3 input {
+        height: 35px;
+        font-size: 14px;
+    }
+    .invoice-detail-3 .d-c h5 {
+        font-size: 13px;
+        text-align: left;
+    }
+    .invoice-detail-3 .d-c h6 {
+        font-size: 13px;
+        text-align: left;    
+    }
+    .invoice-detail-3 .d-c h6 {
+        font-size: 13px;
+        text-align: left;
+        margin: 0px 0px 10px 0px;
+    }
+    ol.client-t-drop {
+        padding: 0px;
+        margin: 0px;
+    }
+    ol.client-t-drop .input-group-prepend button {
+        font-size: 13px;
+        font-family: "Rubik-Regular";
+    }
+    .content-header h1 {
+        font-family: "Rubik-Medium";
+        font-size: 24px;
+        margin: 0px 0px 15px 0px !important;
+    }
+    .table-responsive {
+        display: block;
+    }
+}

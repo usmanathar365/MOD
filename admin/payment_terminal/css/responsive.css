@@ -1,0 +1,18 @@
+@media only screen and (max-width:1160px){
+  
+}
+
+@media only screen and (max-width: 600px) {
+  .payment-form .form-group label {
+   font-size: 14px;
+  }
+  .payment-form .g-title {font-size: 20px;}
+  
+  .payment-form .form-group.check-group {
+    padding-top: 6px;
+}
+ .g-recaptcha {
+    margin: 25px 0 !important;
+} 
+  .footer-icon{display:none;}
+}

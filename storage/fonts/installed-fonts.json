@@ -1,0 +1,21 @@
+{
+    "font awesome 5 brands": {
+        "normal": "font_awesome_5_brands_normal_644ba1b15fc1f6d4ceb7b2e4c170de29"
+    },
+    "font awesome 5 free": {
+        "normal": "font_awesome_5_free_normal_bd408ef291f6c0a9cf8a3277bf55f044",
+        "900": "\/home\/oneterminal\/public_html\/storage\/fonts\/font_awesome_5_free_900_b28f301fb70038be60d62af9664ff288"
+    },
+    "ionicons": {
+        "normal": "ionicons_normal_1b2b773bb3197b577cecee8d68579952"
+    },
+    "rubik-regular": {
+        "normal": "rubik_regular_normal_c4214e28265a5ec33ca5cd6d2606b8e9"
+    },
+    "rubik-semibold": {
+        "normal": "rubik_semibold_normal_e62d4655aee742567dff7418ba5f07f6"
+    },
+    "rubik-medium": {
+        "normal": "rubik_medium_normal_599d52016ec9e8e9ebacfcb21f970dde"
+    }
+}
